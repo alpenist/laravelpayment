@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="12" assertions="19" errors="0" failures="0" skipped="0" time="0.270724">
+    <testsuite name="Tests\Feature\AccountTest" file="D:\github\laravelpayment\tests\Feature\AccountTest.php" tests="6" assertions="11" errors="0" failures="0" skipped="0" time="0.220517">
+      <testcase name="test_account_post" file="D:\github\laravelpayment\tests\Feature\AccountTest.php" line="11" class="Tests\Feature\AccountTest" classname="Tests.Feature.AccountTest" assertions="5" time="0.135612"/>
+      <testcase name="test_account_get_by_id" file="D:\github\laravelpayment\tests\Feature\AccountTest.php" line="28" class="Tests\Feature\AccountTest" classname="Tests.Feature.AccountTest" assertions="2" time="0.008911"/>
+      <testcase name="test_account_get_by_id_not_found" file="D:\github\laravelpayment\tests\Feature\AccountTest.php" line="37" class="Tests\Feature\AccountTest" classname="Tests.Feature.AccountTest" assertions="1" time="0.034704"/>
+      <testcase name="test_payment_post" file="D:\github\laravelpayment\tests\Feature\AccountTest.php" line="42" class="Tests\Feature\AccountTest" classname="Tests.Feature.AccountTest" assertions="1" time="0.029101"/>
+      <testcase name="test_payment_post_account_not_found" file="D:\github\laravelpayment\tests\Feature\AccountTest.php" line="48" class="Tests\Feature\AccountTest" classname="Tests.Feature.AccountTest" assertions="1" time="0.007198"/>
+      <testcase name="test_payment_post_validation_fail" file="D:\github\laravelpayment\tests\Feature\AccountTest.php" line="53" class="Tests\Feature\AccountTest" classname="Tests.Feature.AccountTest" assertions="1" time="0.004992"/>
+    </testsuite>
+    <testsuite name="Tests\Unit\AccountTest" file="D:\github\laravelpayment\tests\Unit\AccountTest.php" tests="6" assertions="8" errors="0" failures="0" skipped="0" time="0.050207">
+      <testcase name="test_account_post" file="D:\github\laravelpayment\tests\Unit\AccountTest.php" line="12" class="Tests\Unit\AccountTest" classname="Tests.Unit.AccountTest" assertions="1" time="0.014481"/>
+      <testcase name="test_account_get" file="D:\github\laravelpayment\tests\Unit\AccountTest.php" line="19" class="Tests\Unit\AccountTest" classname="Tests.Unit.AccountTest" assertions="2" time="0.005670"/>
+      <testcase name="test_account_get_not_found" file="D:\github\laravelpayment\tests\Unit\AccountTest.php" line="30" class="Tests\Unit\AccountTest" classname="Tests.Unit.AccountTest" assertions="1" time="0.003829"/>
+      <testcase name="test_payment_post" file="D:\github\laravelpayment\tests\Unit\AccountTest.php" line="37" class="Tests\Unit\AccountTest" classname="Tests.Unit.AccountTest" assertions="1" time="0.014958"/>
+      <testcase name="test_payment_post_account_not_found" file="D:\github\laravelpayment\tests\Unit\AccountTest.php" line="47" class="Tests\Unit\AccountTest" classname="Tests.Unit.AccountTest" assertions="1" time="0.004112"/>
+      <testcase name="test_payment_post_validation_fail" file="D:\github\laravelpayment\tests\Unit\AccountTest.php" line="55" class="Tests\Unit\AccountTest" classname="Tests.Unit.AccountTest" assertions="2" time="0.007157"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
