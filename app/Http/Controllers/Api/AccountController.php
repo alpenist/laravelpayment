@@ -9,20 +9,24 @@ use App\Models\Account;
 
 class AccountController extends Controller
 {
-    public function store(Request $request)
+    /**
+     * @param Request $request
+     * @return JsonResponse
+     */
+    public function store(Request $request): JsonResponse
     {
         $account = Account::query()->create([
             'balance' => $request->input('balance') ?? 0,
         ]);
+
         return response()->json($account->toArray(), 201);
     }
 
     /**
      * @param int|string $id
-     * @param Request $request
      * @return JsonResponse
      */
-    public function get(int|string $id, Request $request): JsonResponse
+    public function get(int|string $id): JsonResponse
     {
         $account = Account::query()->findOrFail((int)$id);
 
